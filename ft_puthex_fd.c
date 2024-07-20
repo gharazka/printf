@@ -26,6 +26,5 @@ int	ft_puthex_fd(unsigned long long int n, unsigned long int temp, int len)
 		ft_putnbr_fd(n, 1, 0);
 	if (n > 9)
 		ft_putchar_fd(n + 'W', 1);
-		
 	return (len);
 }
